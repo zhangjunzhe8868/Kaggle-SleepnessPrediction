@@ -1,0 +1,4 @@
+The goal of this project is to classify the drowsy driver by using the different features such as head position, eye position, and the eye open percentage.
+This is a binary classification problem. I would like to build a baseline model and a machine learning model to solve this problem.
+To do the classification, the level of driver drowsiness should be defined. Based on the Drowsy Testing Participant Info, I defined 3 or less are not drowsy but 4 or more are drowsy. However, the threshold of drowsiness can be tuned by clustering method or cross-validation result (try different threshold into the same classification model and check the metrics).
+This problem needs some feature engineering and data cleaning before building the classification model. The feature engineering needs to capture the dynamic features based on the timestamp and frame.
